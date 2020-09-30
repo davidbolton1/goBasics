@@ -14,3 +14,11 @@ func funciton_name ( [paramerter list] ) [return_types]
 {
 	body of the function
 }
+
+func add( a int, b int) int {
+	return a + b
+}
+
+func main() {
+	fmt.Println("sum is ", add(10, 19))
+}
